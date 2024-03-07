@@ -1,5 +1,6 @@
 /* Write your CSS here! */
 
+
 body, h1, h2, h3, p, video, img {
     margin: 0;
     padding: 0;
@@ -11,17 +12,21 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #c89292;
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+
+#mainHeading {
+    color: red; 
 }
 
 main {
     max-width: 800px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #fff;
+    background-color: #ded8d8;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -52,10 +57,13 @@ img, video {
 }
 
 footer {
-    background-color: #333;
+    background-color: #e7bfbf;
     color: #fff;
     padding: 10px;
     text-align: center;
+}
+.funparagraph {
+    color: green; 
 }
 
 
